@@ -1,0 +1,27 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "react django todo app",
+  "main": "index.js",
+  "keywords": [
+    "react-django"
+  ],
+  "scripts": {
+    "start": "node index.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix reactapp && npm run build --prefix reactapp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahavishnup/React-Django-To-Do-App.git"
+  },
+  "author": "mahavishnup",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mahavishnup/React-Django-To-Do-App/issues"
+  },
+  "homepage": "https://github.com/mahavishnup/React-Django-To-Do-App#readme",
+  "dependencies": {
+    "concurrently": "^7.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
